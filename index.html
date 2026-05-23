@@ -7,142 +7,177 @@
 
 <style>
 html, body{
-  margin:0;
-  padding:0;
-  background:#eeeeee;
-  font-family:Arial,sans-serif;
-  display:flex;
-  justify-content:center;
+    margin:0;
+    padding:0;
+    background:#eeeeee;
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
 }
 
 .container{
-  width:410px;
-  background:#fff;
-  border:5px solid #000;
-  border-radius:34px;
-  margin:8px auto;
-  padding:10px 18px 10px;
-  box-sizing:border-box;
-  text-align:center;
+    width:410px;
+    background:#fff;
+    border:5px solid #000;
+    border-radius:34px;
+    margin:8px auto;
+    padding:10px 18px 10px;
+    box-sizing:border-box;
+    text-align:center;
 }
 
 .logo{
-  width:100%;
-  margin-bottom:0;
+    width:100%;
+    margin-bottom:0;
 }
 
 .nome{
-  font-size:28px;
-  font-weight:800;
-  margin:0 0 8px;
+    font-size:28px;
+    font-weight:800;
+    margin:0 0 8px;
 }
 
 .botao{
-  width:100%;
-  border:none;
-  border-radius:16px;
-  padding:10px;
-  margin-bottom:8px;
-  font-size:17px;
-  font-weight:700;
-  box-shadow:0 4px 12px rgba(0,0,0,0.10);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  text-decoration:none;
-  box-sizing:border-box;
+    width:100%;
+    border:none;
+    border-radius:16px;
+    padding:10px;
+    margin-bottom:8px;
+    font-size:17px;
+    font-weight:700;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    text-decoration:none;
+    box-sizing:border-box;
 }
 
 .whatsapp{
-  background:#27c756;
-  color:#fff;
+    background:#27c756;
+    color:#fff;
 }
 
 .whatsapp-icon{
-  width:30px;
-  height:30px;
+    width:30px;
+    height:30px;
 }
 
 .branco{
-  background:#fff;
-  color:#111;
+    background:#fff;
+    color:#111;
 }
 
 .info{
-  background:#fff;
-  border-radius:16px;
-  padding:12px;
-  margin:4px 0 8px;
-  text-align:left;
-  font-size:14px;
-  line-height:1.28;
-  box-shadow:0 4px 12px rgba(0,0,0,0.10);
+    background:#fff;
+    border-radius:16px;
+    padding:12px;
+    margin:4px 0 8px;
+    text-align:left;
+    font-size:14px;
+    line-height:1.28;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
 }
 
 .info strong{
-  font-weight:800;
+    font-weight:800;
 }
 
 .links{
-  display:flex;
-  justify-content:space-between;
-  gap:7px;
-  margin:8px 0;
+    display:flex;
+    justify-content:space-between;
+    gap:7px;
+    margin:8px 0;
 }
 
 .links a{
-  flex:1;
-  background:#fff;
-  color:#111;
-  text-decoration:none;
-  border-radius:12px;
-  padding:7px 4px;
-  font-size:11px;
-  font-weight:500;
-  box-shadow:0 4px 10px rgba(0,0,0,0.10);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:5px;
-  white-space:nowrap;
+    flex:1;
+    background:#fff;
+    color:#111;
+    text-decoration:none;
+    border-radius:12px;
+    padding:7px 4px;
+    font-size:11px;
+    font-weight:500;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    white-space:nowrap;
 }
 
 .salvar{
-  margin-top:8px;
+    margin-top:8px;
 }
 
 .salvar a{
-  width:100%;
-  background:#fff;
-  color:#111;
-  text-decoration:none;
-  border-radius:16px;
-  padding:11px;
-  font-size:17px;
-  font-weight:700;
-  box-shadow:0 4px 12px rgba(0,0,0,0.10);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  box-sizing:border-box;
+    width:100%;
+    background:#fff;
+    color:#111;
+    text-decoration:none;
+    border-radius:16px;
+    padding:11px;
+    font-size:17px;
+    font-weight:700;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    box-sizing:border-box;
 }
 
 .qrcode{
-  width:115px;
-  margin-top:8px;
+    width:115px;
+    margin-top:8px;
 }
 
 .grupo{
-  margin-top:2px;
-  margin-bottom:0;
-  color:#666;
-  font-size:14px;
+    margin-top:2px;
+    margin-bottom:0;
+    color:#666;
+    font-size:14px;
 }
 
 .grupo strong{
-  color:#444;
+    color:#444;
+}
+
+.menu-sites{
+    display:none;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:85%;
+    max-width:320px;
+    background:#2c2c2e;
+    border-radius:24px;
+    padding:18px;
+    z-index:9999;
+    box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+.menu-sites a,
+.menu-sites button{
+    display:block;
+    width:100%;
+    padding:16px;
+    margin:10px 0;
+    border:none;
+    border-radius:16px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    background:#3a3a3c;
+    color:white;
+    box-sizing:border-box;
+}
+
+.menu-sites button{
+    background:#555;
 }
 </style>
 </head>
@@ -156,8 +191,8 @@ html, body{
 <h1 class="nome">Caio Alencar</h1>
 
 <a class="botao whatsapp" href="https://wa.me/5588988411909">
-  <img class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-  WhatsApp
+    <img class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    WhatsApp
 </a>
 
 <a class="botao branco" href="tel:+5588988411909">📞 Ligar</a>
@@ -172,26 +207,28 @@ Juazeiro do Norte – CE, Brasil<br>
 CEP 63.050-030<br><br>
 
 <strong>WhatsApp:</strong> +55 (88) 9 8841-1909<br>
-<strong>Telefone:</strong> +55 (88) 9 8841-1909<br>
+<strong>Telefone:</strong> +55 (88) 3572-3322<br>
 <strong>E-mail:</strong> caioalencar@cevema.com.br
 </div>
 
 <div class="links">
-  <a href="https://www.cevema.com.br">🌐 Site Cevema</a>
 
-  <a href="https://www.instagram.com/cevemacariri">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="18" height="18">
+<a href="#" onclick="abrirMenuSites(event)">🌐 Site Cevema</a>
+
+<a href="https://www.instagram.com/cevemacariri">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="18" height="18" alt="Instagram">
     Instagram
-  </a>
+</a>
 
-  <a href="https://www.linkedin.com/in/cmaalencar">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="18" height="18">
+<a href="https://www.linkedin.com/in/cmaalencar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="18" height="18" alt="LinkedIn">
     LinkedIn
-  </a>
+</a>
+
 </div>
 
 <div class="salvar">
-  <a href="caio-alencar.vcf" download>💾 Salvar contato</a>
+    <a href="caio-alencar.vcf" download>💾 Salvar contato</a>
 </div>
 
 <img
@@ -204,6 +241,25 @@ Grupo <strong>Cevema</strong>
 </div>
 
 </div>
+
+<div id="menu-sites" class="menu-sites">
+    <a href="https://www.cevemafiat.com.br" target="_blank">Fiat</a>
+    <a href="https://www.cevemacitroen.com.br" target="_blank">Citroën</a>
+    <a href="https://www.cevemapeugeot.com.br" target="_blank">Peugeot</a>
+    <a href="https://www.cevemaoj.com.br" target="_blank">Omoda Jaecoo</a>
+    <button onclick="fecharMenuSites()">Cancelar</button>
+</div>
+
+<script>
+function abrirMenuSites(event){
+    event.preventDefault();
+    document.getElementById("menu-sites").style.display = "block";
+}
+
+function fecharMenuSites(){
+    document.getElementById("menu-sites").style.display = "none";
+}
+</script>
 
 </body>
 </html>
