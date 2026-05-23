@@ -3,9 +3,12 @@ VERSION:3.0
 FN:Caio Alencar
 ORG:Grupo Cevema
 TITLE:Diretor
-TEL;TYPE=WORK,VOICE:+558835723322
+
 TEL;TYPE=CELL,VOICE:+5588988411909
+TEL;TYPE=WORK,VOICE:+558835723322
+
 EMAIL:caioalencar@cevema.com.br
-ADR;TYPE=WORK:;;Rua Leão XIII\, 653;Juazeiro do Norte;CE;63050-030;Brasil
+ADR;TYPE=WORK:;;Rua Leão XIII\, 653;Juazeiro do Norte;CE;;Brasil
 URL:https://caiomaalencar.github.io/caio-alencar/
+
 END:VCARD
