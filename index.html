@@ -108,8 +108,14 @@ html, body{
     white-space:nowrap;
 }
 
-.salvar{
+.qrcode{
+    width:115px;
     margin-top:8px;
+    margin-bottom:8px;
+}
+
+.salvar{
+    margin-top:4px;
 }
 
 .salvar a{
@@ -127,22 +133,6 @@ html, body{
     justify-content:center;
     gap:10px;
     box-sizing:border-box;
-}
-
-.qrcode{
-    width:115px;
-    margin-top:8px;
-}
-
-.grupo{
-    margin-top:2px;
-    margin-bottom:0;
-    color:#666;
-    font-size:14px;
-}
-
-.grupo strong{
-    color:#444;
 }
 
 .menu-sites{
@@ -227,22 +217,21 @@ CEP 63.050-030<br><br>
 
 </div>
 
-<div class="salvar">
-    <a href="caio-alencar.vcf" download>💾 Salvar contato</a>
-</div>
-
 <img
 src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://caiomaalencar.github.io/caio-alencar/"
 class="qrcode"
 alt="QR Code">
-    
+
+<div class="salvar">
+    <a href="caio-alencar.vcf" download>💾 Salvar contato</a>
+</div>
 
 </div>
 
 <div id="menu-sites" class="menu-sites">
     <a href="https://www.cevemafiat.com.br" target="_blank">Fiat</a>
-    <a href="https://www.cevemapeugeot.com.br" target="_blank">Peugeot</a>
     <a href="https://www.cevemacitroen.com.br" target="_blank">Citroën</a>
+    <a href="https://www.cevemapeugeot.com.br" target="_blank">Peugeot</a>
     <a href="https://www.cevemaoj.com.br" target="_blank">Omoda Jaecoo</a>
     <button onclick="fecharMenuSites()">Cancelar</button>
 </div>
